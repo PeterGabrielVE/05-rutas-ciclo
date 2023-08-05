@@ -1,10 +1,5 @@
 import { createRouter, createWebHashHistory } from 'vue-router'
 
-import ListPage from '../modules/pokemon/pages/ListPage'
-import AboutPage from '../modules/pokemon/pages/AboutPage'
-import PokemonPage from '../modules/pokemon/pages/PokemonPage'
-import NoPageFound from '../modules/shared/components/pages/NoPageFound'
-
 const routes = [
     { 
       path: '/', 
@@ -20,7 +15,7 @@ const routes = [
     },
     { 
       path: '/:pathMatch(.*)*',
-      component: () => import(/* webpackChunkName: "NoPageFound" */ '@/modules/shared/components/pages/NoPageFound') 
+      component: () => import(/* webpackChunkName: "NoPageFound" */ '@/modules/shared/pages/NoPageFound') 
     },
   ]
 

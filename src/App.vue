@@ -1,14 +1,15 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
-
+  <AboutPage />
 </template>
 
 <script>
-
+ import AboutPage from './modules/pokemon/pages/AboutPage'
 
 export default {
   name: 'App',
   components: {
+    AboutPage
   }
 }
 </script>

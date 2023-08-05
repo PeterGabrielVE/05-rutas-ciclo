@@ -1,4 +1,4 @@
-import { createRouter } from 'vue-router'
+import { createRouter, createWebHashHistory } from 'vue-router'
 
 import ListPage from '../modules/pokemon/pages/ListPage'
 import AboutPage from '../modules/pokemon/pages/AboutPage'

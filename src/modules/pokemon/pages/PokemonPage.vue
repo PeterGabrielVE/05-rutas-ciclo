@@ -14,14 +14,14 @@
         },
         data(){
             return {
-                id: null
+                //id: null
             }
         },
         created(){
-            const { id } = this.$route.params
-            console.log(this.$route)
-            console.log(id)
-            this.id = id
+            //const { id } = this.$route.params
+            //console.log(this.$route)
+           // console.log(this.$attrs)
+            //this.id = id
         }
     }
 
